@@ -1,0 +1,306 @@
+img {
+   display: block;
+   max-width: 100%;
+}
+
+* {
+   box-sizing: border-box;
+   font-family: Helvetica, Arial, sans-serif;
+   color: #6c6c6d;
+}
+
+/* Menu */
+.header-container {
+   max-width: 1100px;
+   background: #3498db;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin: 0 auto;
+}
+
+.header-menu-icon {
+   margin: auto 0;
+}
+
+.header-logo {
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-end;
+}
+
+.header-logo p {
+   color: #ecf0f1;
+   padding-top: 50px;
+}
+
+.header-logo b {
+   color: #fff;
+}
+
+.header-redes-sociais {
+   display: flex;
+   margin: auto 0;
+}
+
+.facebook,
+.twitter {
+   padding: 10px;
+   background: #fff;
+   margin: 10px;
+   border-radius: 15%;
+}
+
+/* Main */
+.main-container {
+   position: relative;
+   max-width: 960px;
+   margin-top: 90px;
+   text-align: center;
+   padding-top: 80px;
+   margin: 0 auto;
+}
+
+.main-info {
+   position: relative;
+   top: -150px;
+   float: left;
+   color: #fff;
+   margin-left: 20px;
+}
+
+.destak-p {
+   text-align: left;
+   padding: 5px 15px 5px 10px;
+   background: #3498db;
+   margin-bottom: 10px;
+   margin-left: 10px;
+   max-width: 200px;
+   color: #fff;
+}
+
+.main-resumo {
+   font-size: 1.125em;
+   line-height: 1.5;
+   max-width: 300px;
+   text-align: left;
+   margin-left: 10px;
+   color: #fff;
+}
+
+.arrow-left {
+   position: relative;
+   display: block;
+   width: 40px;
+   height: 40px;
+   top: -200px;
+   right: 350px;
+   background: #fff;
+   border-radius: 50%;
+   padding: 6px;
+}
+
+.arrow-right {
+   position: relative;
+   display: block;
+   width: 40px;
+   height: 40px;
+   top: -250px;
+   right: -610px;
+   background: #fff;
+   border-radius: 50%;
+   padding: 6px;
+}
+
+
+/* Chocolate */
+.chocolate {
+   max-width: 960px;
+   margin: 0 auto;
+}
+
+.chocolate > h2 {
+   font-size: 2.25em;
+   margin-bottom: 10px;
+   padding-top: 30px;
+}
+
+.chocolate-flex {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.chocolate-item {
+   width: 300px;
+}
+
+.chocolate-item h2 {
+   position: relative;
+   display: inline;
+   top: -40px;
+   padding: 5px 15px 5px 30px;
+   text-transform: uppercase;
+   color: #fff;
+   background: rgba(231, 76, 60, 0.8);
+}
+
+/* Salgados */
+.salgados {
+   max-width: 960px;
+   margin: 60px auto;
+}
+
+.salgados > h2 {
+   font-size: 2.25em;
+   text-align: start;
+}
+
+.salgados > p {
+   text-align: end;
+   opacity: 0.4;
+   text-transform: capitalize;
+}
+
+.mid-conteiner-geral {
+   display: flex;
+}
+
+.mid-noticias {
+   display: flex;
+   flex: 1;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: stretch;
+   margin-right: 20px;
+}
+
+.info {
+   max-width: 300px;
+   height: 320px;
+   border-bottom: 1px solid rgb(99, 99, 99);
+   padding-bottom: 30px;
+   margin-bottom: 20px;
+   background: #f4f7f8;
+}
+
+.info a {
+   text-transform: uppercase;
+   font-size: 1em;
+   display: block;
+   color: #2980b9;
+   padding: 10px;
+   margin: 5px 0;
+}
+
+.info p {
+   padding: 0px 10px;
+}
+
+.propaganada {
+   flex: 3;
+}
+
+/* Bebidas */
+.bebidas{
+     max-width: 960px;
+     margin: 0 auto;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: stretch;
+     margin-top: 60px;
+}
+
+.bebidas-info {
+     max-width: 300px;
+     margin-right: 20px;
+}
+
+.bebidas-info h1{
+     font-size: 1.5em;
+     margin-bottom: 30px;
+     color: #2980b9;
+}
+
+.bebidas-info ul li{
+     padding-bottom: 15px;
+     padding-top: 10px;
+     line-height: 1.5;
+     font-size: 1em;
+     border-bottom: 2px solid gray;
+}
+
+.bebidas-flex-container{
+     display: flex;
+}
+
+.vodka{
+     max-width: 300px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+
+.vodka > h1{
+     font-size: 1.5em;
+     margin-bottom: 30px;
+     color: #E74C3C;
+}
+
+.vodka-item{
+     display: flex;
+     margin: 10px;
+}
+
+.vodka-item img{
+     height: 100%;
+     width: 100%;
+}
+
+.vodka-item h2{
+     color: #E74C3C;
+     padding: 10px;
+}
+
+.vodka-item p{
+     padding: 10px;
+}
+
+/* Footer */
+.voltar-topo{
+     background: #3498DB;
+     padding: 20px;
+     margin-top: 400px;
+}
+
+.voltar-topo > div{
+     max-width: 960px;
+     margin: 0 auto;
+     text-align: end;
+     color: #fff;
+}
+
+.voltar-topo > div p{
+     color: #ecf0f1;
+     font-size: 1.5em;
+}
+
+.main-footer{
+     background: #2980B9;
+
+}
+
+.main-footer > div{
+     max-width: 960px;
+     margin: 0 auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px 0;
+}
+
+.main-footer > div p{
+     color: #fff;
+     max-width: 600px;
+}
