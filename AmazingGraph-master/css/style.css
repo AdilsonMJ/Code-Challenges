@@ -1,0 +1,135 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: Roboto, sans-serif;
+   color: #766F68;
+}
+
+
+li {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+img {
+   display: block;
+   max-width: 100%;
+}
+
+.header {
+     max-width: 1200px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     padding: 30px;
+     margin: 0 auto;
+}
+
+.header > h1 {
+     color: #D2872C;
+     font-size: 2em;
+}
+
+.header nav ul {
+     display: flex;
+}
+
+.header nav ul li + li{
+     margin-left: 10px;
+}
+
+.header nav ul li a{
+     display: block;
+     padding: 10px;
+     font-size: 1.3em;
+     color: #766F68;
+}
+
+.main{
+     max-width: 1000px;
+     margin: 0 auto;
+}
+
+.main-info{
+     position: absolute;
+     max-width: 500px;
+}
+
+.main-info h2{
+     font-size: 4em;
+}
+
+.main-info p{
+     font-size: 1.7em;
+     margin-top: 50px;
+     max-width: 400px;
+}
+
+.main-info a{
+     font-size: 1.5em;
+     color: #fff;
+     display: block;
+     text-align: center;
+     margin-top: 50px;
+     width: 250px;
+     height: 50px;
+     background: #D2872C;
+     padding: 10px;
+     border-radius: 10px;
+}
+
+.main > img{
+     margin-top: 30px;
+     float: right;
+     width: 65%;
+}
+
+
+@media screen and (max-width: 44em){
+     .header{
+          max-width: 100%;
+          justify-content: center;
+     }
+
+     .header nav ul li a{
+          font-size: 1em;
+     }
+
+     .main{
+          max-width: 80%;
+          display: flex;
+          flex-wrap: wrap;
+     }
+
+     .main-info{
+          position: relative;
+          order: 2;
+     }
+
+     .main-info h2{
+          font-size: 2em;
+          text-align: center;
+          margin-top: 30px;
+     }
+
+     .main-info p{
+          font-size: 1.25em;
+          text-align: center;
+     }
+
+     .main-info a {
+           text-align: center;
+           margin: 30px auto;
+     }
+
+     .main > img{
+          order: 1;
+          width: 100%;
+     }
+
+}
