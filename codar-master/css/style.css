@@ -1,0 +1,277 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: Roboto, sans-serif;
+}
+
+li {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+img {
+   display: block;
+   max-width: 100%;
+}
+
+/* HEADER */
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.header {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 0;
+}
+
+.header > h1 {
+   color: #d6000d;
+   font-size: 3em;
+   font-weight: 600;
+}
+
+.header nav ul {
+   display: flex;
+}
+
+.header nav ul li a {
+   display: block;
+   padding: 10px 30px;
+   color: #000;
+}
+
+.header nav ul li:hover {
+   background: rgba(214, 0, 13, 0.1);
+   border-radius: 10px;
+   box-shadow: 9px 10px 16px -4px rgba(0, 0, 0, 0.2);
+}
+
+.login {
+   border-radius: 10px;
+   background: #d6000d;
+}
+
+.header .login > a {
+   color: #fff;
+}
+
+.header .login:hover {
+   background: #d6000d;
+   box-shadow: 9px 10px 16px -4px rgba(0, 0, 0, 0.2);
+}
+
+/* INTRO */
+
+.intro {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   max-width: 1000px;
+   margin: 100px auto;
+}
+
+.intro-img-call {
+   width: 500px;
+}
+
+.intro-info {
+   max-width: 50%;
+   align-items: center;
+   margin: 80px auto;
+}
+
+.intro-info p {
+   font-weight: 800;
+   font-size: 1.3em;
+   text-align: start;
+}
+
+.intro-info h3 {
+   font-size: 3.2em;
+   color: #d6000d;
+   padding-top: 10px;
+}
+
+.intro-info > div {
+   display: block;
+   margin-top: 40px;
+   width: 250px;
+   padding: 10px;
+   background: #d6000d;
+   border-radius: 10px;
+   text-align: center;
+}
+
+.intro-info > div:hover {
+   box-shadow: 9px 10px 16px -4px rgba(0, 0, 0, 0.2);
+}
+
+.intro-info a {
+   color: #fff;
+}
+
+/* Informacoes */
+.informacoes {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   max-width: 1000px;
+   margin: 100px auto;
+}
+
+.informacoes nav {
+   display: block;
+   align-self: center;
+}
+
+.informacoes nav ul li {
+   padding: 10px;
+   margin: 10px 0;
+   font-size: 1.125em;
+   text-decoration: none;
+   text-transform: capitalize;
+   padding-left: 20px;
+   font-weight: 500;
+}
+.informacoes nav ul li::before {
+   display: inline-block;
+   content: "\2713";
+   width: 25px;
+   height: 25px;
+   background: red;
+   border-radius: 100%;
+   margin-right: 30px;
+   text-align: center;
+   color: #fff;
+}
+
+.informacoes img {
+   max-width: 600px;
+}
+
+.informacoes-contacto {
+   max-width: 500px;
+   display: block;
+}
+
+.informacoes-contacto h2 {
+   font-size: 1.25em;
+}
+
+.informacoes-contacto form {
+   max-width: 600px;
+   margin-top: 10px;
+}
+
+.informacoes-contacto form input {
+   padding: 10px;
+   background: rgb(201, 201, 201, 0.6);
+   border: none;
+   color: #000;
+   text-decoration: none;
+   outline: none;
+   border-radius: 10px;
+   width: 200px;
+   text-transform: uppercase;
+}
+
+.informacoes-contacto form button {
+   background: #d6000d;
+   border: none;
+   padding: 10px;
+   border-radius: 10px;
+   width: 160px;
+   color: #fff;
+   letter-spacing: 0.1em;
+}
+
+.informacoes-contacto form button:hover {
+   box-shadow: 9px 10px 16px -4px rgba(0, 0, 0, 0.2);
+}
+
+.depoimentos {
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 1000px;
+   margin: 100px auto;
+}
+
+.depoimentos div {
+   max-width: 45%;
+   background: rgb(199, 199, 199);
+   padding: 20px 30px 20px 90px;
+}
+.depoimentos .first-p {
+   position: relative;
+}
+
+.depoimentos .first-p::before {
+   content: "";
+   display: inline-block;
+   background: #d6000d;
+   width: 60px;
+   height: 60px;
+   border-radius: 100%;
+   position: absolute;
+   left: -75px;
+}
+
+.depoimentos div h2 {
+   margin-top: 10px;
+   text-transform: capitalize;
+}
+
+.depoimentos div:first-child {
+   margin-right: 10px;
+}
+.depoimentos div + div {
+   margin-left: 10px;
+}
+
+/* FOOTER */
+.footer {
+   background: #000;
+}
+
+.footer-conteiner {
+   max-width: 1200px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: 0 auto;
+   color: #fff;
+   padding: 60px 30px;
+   align-content: center;
+}
+
+.footer h1 h2 {
+   font-size: 2em;
+   font-weight: 400;
+}
+
+.footer p{
+     font-size: 1em;
+     font-weight: 100;
+     margin-top: 20px;
+}
+
+.redes-footer > div{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+}
+
+.redes-footer img{
+     width: 30px;
+     height: 30px;
+     background: rgb(221, 0, 0);
+     margin-top: 30px;
+}
